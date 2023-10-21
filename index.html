@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul class="ul-left-nav">
+        <li><img src="images/logo.svg" alt="logo"></li>
+        <li>Features <img src="images/icon-arrow-down.svg" alt="" aria-hidden="true">
+          <ul class="features-ul">
+            <li><img src="images/icon-todo.svg" alt="" aria-hidden="true" class="to-do-img">Todo List</li>
+            <li><img src="images/icon-calendar.svg" alt="" aria-hidden="true" class="calendar-img">Calendar</li>
+            <li><img src="images/icon-reminders.svg" alt="" aria-hidden="true" class="reminders-img">Reminders</li>
+            <li><img src="images/icon-planning.svg" alt="" aria-hidden="true" class="planning-img">Planning</li>
+          </ul>
+        </li>
+        <li>Company <img src="images/icon-arrow-down.svg" alt="" aria-hidden="true">
+          <ul class="company-ul">
+            <li>History</li>
+            <li>Our Team</li>
+            <li>Blog</li>
+          </ul>
+        </li>
+        <li>Careers</li>
+        <li>About</li>
+      </ul>
+      <ul class="ul-right-nav">
+        <li>Login</li>
+        <li>Register</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="text-content">
+      <h1>Make remote work</h1>
+      <p>
+        Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.
+      </p>
+      <a href="#"><button>Learn more</button></a>
+
+      <div class="logos">
+        <ul class="list-logos">
+          <li><img src="images/client-databiz.svg" alt="" aria-hidden="true" class="logo-databiz"></li>
+          <li><img src="images/client-audiophile.svg" alt="" aria-hidden="true" class="logo-audiophile"></li>
+          <li><img src="images/client-meet.svg" alt="" aria-hidden="true" class="logo-meet"></li>
+          <li><img src="images/client-maker.svg" alt="" aria-hidden="true" class="log-maker"></li>
+        </ul>
+      </div>
+    </section>
+    <section class="img-container">
+      <picture>
+        <source media="(max-width: 900px )" srcset="images/image-hero-mobile.png" type="image/png">
+        <img src="images/image-hero-desktop.png" alt="" aria-hidden="true">
+      </picture>
+    </section>
+  </main>
+</body>
+</html>

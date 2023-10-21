@@ -1,0 +1,40 @@
+@charset "UTF-08";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    height: 15%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 50%;
+    height: 100%;
+    padding: 2em;
+    gap: 1em;
+}
+nav > ul ul{
+    display: none;
+}
+
+main{
+    height: 85%;
+}
