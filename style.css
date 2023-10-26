@@ -1,9 +1,22 @@
 @charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+:root{
+    /*Colors*/
+    --almost-white: hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --almost-black: hsl(0, 0%, 8%);
+
+    /*Fonts*/
+    --Epilogue: 'Epilogue', sans-serif;
+
+}
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--Epilogue);
 }
 
 body{
@@ -30,6 +43,15 @@ nav > ul{
     height: 100%;
     padding: 2em;
     gap: 1em;
+}
+nav > ul > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+.ul-right-nav{
+    justify-content: flex-end;
 }
 nav > ul ul{
     display: none;
